@@ -1,0 +1,32 @@
+CREATE DATABASE moving_canvas_db;
+USE moving_canvas_db;
+
+CREATE TABLE users
+(
+	id INT NOT NULL AUTO_INCREMENT,
+	user_first_name VARCHAR(30),
+	user_last_name VARCHAR(30),
+	user_email VARCHAR(65) NOT NULL,
+	user_password VARCHAR(30) NOT NULL,
+	user_favorite_artist VARCHAR(65),
+	user_favorite_piece VARCHAR(65),
+	user_zip VARCHAR(10),
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE artists
+(
+	id INT NOT NULL AUTO_INCREMENT,
+	artist_first_name VARCHAR(30) NOT NULL,
+	artist_last_name VARCHAR(30) NOT NULL,
+	artist_email VARCHAR(65) NOT NULL,
+	artist_password VARCHAR(30) NOT NULL,
+	artist_phone VARCHAR(20),
+	artist_studio VARCHAR(65),
+	artist_certified BOOLEAN,
+	artist_apprentice BOOLEAN,
+	artist_self_taught BOOLEAN,
+	artist_pricing DECIMAL(8, 2),
+	artist_zip VARCHAR(10),
+	PRIMARY KEY (id)
+);
