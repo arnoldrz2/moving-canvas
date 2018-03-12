@@ -11,7 +11,7 @@ if (process.env.JAWSDB_URL) {
     host: "localhost",
     user: "root",
     password: "root",
-    database: ""
+    database: "moving_canvas_db"
   });
 };
 
