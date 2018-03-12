@@ -1,0 +1,66 @@
+body{
+  background-color: black;
+}
+
+
+p.SignUp {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  padding-top: 40px;
+  padding-right: 300px;
+  padding-bottom: -75px;
+  padding-left: 300px;
+}
+
+p.start {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-right: 300px;
+  padding-bottom: -65px;
+  padding-left: 300px;
+}
+
+.total-form {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding-bottom: 75px;
+}
+
+.form-group {
+font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+.btn.btn-secondary {
+  padding: 14px 28px;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn.btn-secondary:hover {
+  padding: 14px 28px;
+  background-color: white;
+  color: #687EAD;
+  border: 2px solid #687EAD;
+}
+
+.btn.btn-secondary:active {
+  background-color: white;
+  color: black;
+}
+
+.total-form {
+  padding-top: 40px;
+  padding-right: 400px;
+  padding-bottom: -75px;
+  padding-left: 450px;
+
+}
