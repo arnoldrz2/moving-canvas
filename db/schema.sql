@@ -27,6 +27,16 @@ CREATE TABLE artists
 	artist_apprentice BOOLEAN,
 	artist_self_taught BOOLEAN,
 	artist_pricing DECIMAL(8, 2),
-	artist_zip VARCHAR(10),
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE studios
+(
+	id INT NOT NULL AUTO_INCREMENT,
+	studio_name VARCHAR(65) NOT NULL,
+	studio_address VARCHAR(65),
+	studio_city VARCHAR(30),
+	studio_state VARCHAR(30),
+	studio_zip VARCHAR(10),
 	PRIMARY KEY (id)
 );
