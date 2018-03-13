@@ -1,4 +1,3 @@
-<script>
  var googleUser = {};
  var startApp = function() {
    gapi.load('auth2', function(){
@@ -21,6 +20,5 @@
              googleUser.getBasicProfile().getName();
        }, function(error) {
          alert(JSON.stringify(error, undefined, 2));
-       });
- }
- </script>
+       })
+      }
