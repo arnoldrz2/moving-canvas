@@ -2,63 +2,129 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link rel="stylesheet" type="text/css" href="../css/tattooartistformA.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-<script src=".js"></script>
-
-<link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+  <!-- Our CSS Stylesheet -->
+  <link type="text/css" rel="stylesheet" href="../css/tattooartistformA.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Moving Canvas: Artist Form</title>
 </head>
-
 <body>
-<p class="SignUp">Are you ready to make yourself more accessible? Display your tattoo portfolio on Moving Canvas.</p>
-<p class="start"><i>Let's start here.</i></p>
-<div class="total-form">
-<form>
-  <div class="form-group">
-    <label for="First Name">First Name:</label>
-    <input type="FirstName" class="form-control" id="FirstName" aria-describedby="NameHelp" placeholder="First Name">
-  </div>
-  <div class="form-group">
-      <label for="Last Name">Last Name:</label>
-      <input type="Last Name" class="form-control" id="LastName" aria-describeby="NameHelp" placeholder="Last Name">
-  <div class="form-group">
-    <label for="InputEmail">Email:</label>
-    <input type="Name" class="form-control" id="InputName" placeholder="something@movingcanvas.com">
-  </div>
-  <div class="form-group">
-    <label for="PhoneNumber">Phone Number:</label>
-    <input type="Phone Number" class="form-control" id="PhoneNumber" placeholder="(555)555-5555">
-  </div>
-  <div class="form-group">
-    <label for="InputStudio">Studio:</label>
-    <input type="Studio" class="form-control" id="InputStudio" placeholder="Studio Name">
-    <p></p>
-    <input type="Address" class="form-control" id="InputStudioAddress" placeholder="Address">
-    <p></p>
-    <input type="City"    class="form-control" id="InputStudioCity" placeholder="City">
-    <p></p>
-    <input type="State" class="form-control" id="InputStudioState" placeholder="State">
-    <p></p>
-    <input type="ZipCode" class="form-control" id="InputStudioZipCode" placeholder="ZipCode">
+
+  <div class="container">
+    <!-- Text at the top of page -->
+    <div class="row">
+      <div class="col s12">
+        <p class="SignUp">Are you ready to make yourself more accessible? Display your tattoo portfolio on Moving Canvas.</p>
+        <p class="start"><i>Let's start here.</i></p>
+      </div>
+    </div>
+
+    <!-- Artist Form -->
+    <form class="col s12">
+
+      <!-- Name -->
+      <div class="row">
+        <!-- First Name -->
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <!-- Last Name -->
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+
+      <!-- Gender Select -->
+      <div class="row">
+        <div class="col s12">
+          <label for="artist_gender">Artist Gender</label>
+            <p>
+              <input name="group1" type="radio" id="female" />
+              <label for="female">Female</label>
+            </p>
+            <p>
+              <input name="group1" type="radio" id="male" />
+              <label for="male">Male</label>
+            </p>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+      </div>
+
+      <!-- Password -->
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="telephone" type="tel" class="validate">
+          <label for="telephone">Phone</label>
+        </div>
+      </div>
+
+      <!-- Studio -->
+      <div class="row">
+          <div class="input-field col s12">
+            <input id="studio" type="text" class="validate">
+            <label for="studio">Studio</label>
+          </div>
+      </div>
+
+      <!-- Certified -->
+      <div class="row">
+          <div class="col s12">
+            <label for="certified">Are you a certified tattoo artist?</label>
+              <p>
+                <input name="group2" type="radio" id="certified" />
+                <label for="certified">Certified</label>
+              </p>
+              <p>
+                <input name="group2" type="radio" id="not-certified" />
+                <label for="not-certified">Not Certified</label>
+              </p>
+          </div>
+      </div>
+
+      <!-- Apprentice -->
+      <div class="row">
+          <div class="col s12">
+            <label for="Apprentice">Are you an apprentice to a tattoo artist?</label>
+              <p>
+                <input name="group3" type="radio" id="apprentice" />
+                <label for="apprentice">Apprentice</label>
+              </p>
+              <p>
+                <input name="group3" type="radio" id="not-apprentice" />
+                <label for="not-apprentice">Not An Apprentice</label>
+              </p>
+          </div>
+      </div>
+
+    </form>
+
   </div>
 
 
-  <div class="checkbox">
-    <label><input type="checkbox" value="">Certified</label>
-  </div>
-  <div class="checkbox">
-    <label><input type="checkbox" value="">Apprentice</label>
-  </div>
-  <div class="checkbox">
-    <label><input type="checkbox" value="">Self Taught</label>
-  </div>
-  <p></p>
-  <button type="submit" class="btn btn-secondary">Continue</button>
-</form>
-</div>
-
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <script src="../js/tattooartistformA.js"></script>
 </body>
 </html>
