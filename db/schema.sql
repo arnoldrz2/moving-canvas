@@ -19,14 +19,13 @@ CREATE TABLE artists
 	id INT NOT NULL AUTO_INCREMENT,
 	artist_first_name VARCHAR(30) NOT NULL,
 	artist_last_name VARCHAR(30) NOT NULL,
+	artist_gender ENUM('f', 'm') NOT NULL,
 	artist_email VARCHAR(65) NOT NULL,
 	artist_password VARCHAR(30) NOT NULL,
 	artist_phone VARCHAR(20),
 	artist_studio VARCHAR(65),
 	artist_certified BOOLEAN,
 	artist_apprentice BOOLEAN,
-	artist_self_taught BOOLEAN,
-	artist_pricing DECIMAL(8, 2),
 	PRIMARY KEY (id)
 );
 
