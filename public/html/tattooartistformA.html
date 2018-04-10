@@ -17,113 +17,112 @@
   <div class="container">
     <!-- Text at the top of page -->
     <div class="row">
-      <div class="col s12">
+      <div class="col">
         <p class="SignUp">Are you ready to make yourself more accessible? Display your tattoo portfolio on Moving Canvas.</p>
         <p class="start"><i>Let's start here.</i></p>
       </div>
     </div>
 
     <!-- Artist Form -->
-    <form class="col s12">
+    <form>
 
       <!-- Name -->
       <div class="row">
         <!-- First Name -->
-        <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate">
+        <div class="form-group col">
           <label for="first_name">First Name</label>
+          <input type="text" class="form-control" id="first_name"/>
         </div>
         <!-- Last Name -->
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
+        <div class="form-group col">
           <label for="last_name">Last Name</label>
+          <input type="text" class="form-control" id="last_name"/>
         </div>
       </div>
 
       <!-- Gender Select -->
       <div class="row">
-        <div class="col s12">
+        <div class="col">
           <label for="artist_gender">Artist Gender</label>
-            <p>
-              <input name="group1" type="radio" id="female" />
-              <label for="female">Female</label>
-            </p>
-            <p>
-              <input name="group1" type="radio" id="male" />
-              <label for="male">Male</label>
-            </p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="male" id="male" value="male"/>
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="female" id="female" value="female"/>
+                <label class="form-check-label" for="female">Female</label>
+            </div>
         </div>
       </div>
 
       <!-- Email -->
       <div class="row">
-          <div class="input-field col s12">
-            <input id="email" type="email" class="validate">
+          <div class="form-group col">
             <label for="email">Email</label>
+            <input type="email" class="form-control" id="email"/>
           </div>
       </div>
 
       <!-- Password -->
       <div class="row">
-        <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
+        <div class="form-group col">
           <label for="password">Password</label>
+          <input type="password" class="form-control" id="password"/>
         </div>
       </div>
 
       <!-- Phone -->
       <div class="row">
-        <div class="input-field col s12">
-          <input id="telephone" type="tel" class="validate">
-          <label for="telephone">Phone</label>
+        <div class="form-group col">
+          <label for="telephone">Telephone</label>
+          <input type="tel" class="form-control" id="telephone"/>
         </div>
       </div>
 
       <!-- Studio -->
       <div class="row">
-          <div class="input-field col s12">
-            <input id="studio" type="text" class="validate">
+          <div class="form-group col">
             <label for="studio">Studio</label>
+            <input type="text" class="form-control" id="studio"/>
           </div>
       </div>
 
       <!-- Certified -->
       <div class="row">
-          <div class="col s12">
+          <div class="col">
             <label for="certified">Are you a certified tattoo artist?</label>
-              <p>
-                <input name="group2" type="radio" id="certified" />
-                <label for="certified">Certified</label>
-              </p>
-              <p>
-                <input name="group2" type="radio" id="not-certified" />
-                <label for="not-certified">Not Certified</label>
-              </p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="certified" id="certified" value="certified"/>
+                <label class="form-check-label" for="certified">Certified</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="not-certified" id="not-certified" value="not-certified"/>
+                <label class="form-check-label" for="not-certified">Not-Certified</label>
+              </div>
           </div>
       </div>
 
       <!-- Apprentice -->
       <div class="row">
-          <div class="col s12">
+          <div class="col">
             <label for="Apprentice">Are you an apprentice to a tattoo artist?</label>
-              <p>
-                <input name="group3" type="radio" id="apprentice" />
-                <label for="apprentice">Apprentice</label>
-              </p>
-              <p>
-                <input name="group3" type="radio" id="not-apprentice" />
-                <label for="not-apprentice">Not An Apprentice</label>
-              </p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="apprentice" id="apprentice" value="apprentice"/>
+                <label class="form-check-label" for="apprentice">Apprentice</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="not-apprentice" id="not-apprentice" value="not-apprentice"/>
+                <label class="form-check-label" for="not-apprentice">Not An Apprentice</label>
+              </div>
           </div>
       </div>
 
     </form>
-
   </div>
 
 
   <!--Import jQuery -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="../js/tattooartistformA.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- <script src="../js/tattooartistformA.js"></script> -->
 </body>
 </html>
