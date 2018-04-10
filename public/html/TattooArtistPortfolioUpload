@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" type="text/css" href="../css/TattooArtistPortfolioUpload.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script type="text/javascript" src="TattooArtistPortfolioUpload.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Abel|Montserrat|Open+Sans+Condensed:300" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Abel|Anton|Fjalla+One" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Megrim|Oxygen" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+
+ <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+ <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</head>
+<body>
+
+  <nav class="navbar navbar-deafult navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Moving Canvas</a>
+      </div>
+      <ul class="nav navbar-right">
+        <li><a href="#">Name</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ <div class="button-container">
+   <button type="button" class="btn-back">Back</button>
+</div>
+
+<h1> My Portfolio </h1>
+
+<div class="picture-container">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Italian-tattoo-artist-at-work.jpg" class="avatar" alt="Avatar">
+</div>
+
+
+<div class="information-container">
+<p class="name">Name:</p>
+<p class="Phone">Phone:<p>
+<p class="Email">Email:</p>
+<p class="Studio">Studio:</p>
+</div>
+<div class="container-upload">
+      <div class="panel panel-default">
+        <div class="panel-heading"><strong>Upload pictures of your work.</strong></div>
+        <div class="panel-body">
+
+          <!-- Standar Form -->
+          <h4>Select files from your computer</h4>
+          <form action=""method="post" enctype="multipart/form-data" id="js-upload-form">
+            <div class="form-inline">
+              <div class="form-group">
+                <input type="file" name="files[]" id="js-upload-files" multiple>
+              </div>
+              <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+
+<div class="submitbutton">
+  <button type="button" class="btn btn-secondary">Next</button>
+</div>
