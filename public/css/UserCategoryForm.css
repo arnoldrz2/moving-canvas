@@ -8,7 +8,7 @@ body {
 }
 
 .CategoriesCont {
-  color: white;
+  color: black;
   font-size: 42px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -17,7 +17,7 @@ body {
 }
 
 .GenderSelection {
-  color: white;
+  color: black;
   font-size: 16px;
   text-align: left;
   margin-top: 50px;
@@ -25,7 +25,7 @@ body {
 }
 
 .ArtistExperience {
-  color: white;
+  color: black;
   font-size: 16px;
   text-align: left;
   margin-top: 25px;
@@ -48,8 +48,8 @@ body {
 
 .btn.btn-secondary {
   padding: 14px 28px;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   background-color: transparent;
   text-align: center;
   text-transform: uppercase;
@@ -66,6 +66,6 @@ body {
 }
 
 .btn.btn-secondary:active {
-  background-color: white;
+  background-color: black;
   color: black;
 }
