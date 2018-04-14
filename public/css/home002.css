@@ -1,4 +1,10 @@
+html {
+  margin: 0;
+}
 
+body {
+  margin: 0;
+}
 
 ul {
     list-style-type: none;
@@ -68,10 +74,12 @@ li a:hover {
 .welcome {
   font-weight: lighter;
   text-align: center;
-  padding-top: 95px;
+  margin-top: 40px;
+  padding-top: 100px;
   padding-bottom: 200px;
-  padding-left: 55px;
-  padding-right: 875px;
+  padding-left: 150px;
+  padding-right: 150px;
+
   font-size: 55px;
   font-family: 'Oxygen', sans-serif;
   z-index: 1;
@@ -100,7 +108,7 @@ li a:hover {
   margin-top: 120px;
   line-height: 0px;
   z-index: -1;
-  background-color: #fcfcfc;
+  background-color: black;
   height: 1000px;
   width: 100%;
 }
@@ -123,8 +131,8 @@ li a:hover {
 
 .btn.btn-secondary {
   padding: 14px 28px;
-  color: white;
-  border: 2px solid white;
+  color: black;
+  border: 2px solid black;
   background-color: transparent;
   text-align: center;
   text-transform: uppercase;
@@ -146,10 +154,6 @@ li a:hover {
 }
 
 
-@media only screen and (max-width: 940px),
-only screen and (max-device-width: 940px){
-  .thumbnail { width: 21%;}
-}
 
 
 
@@ -181,6 +185,20 @@ only screen and (max-device-width: 940px){
 .col-text:hover {
   color: white;
 }
+
+.howdoesitwork {
+  margin-top: 95px;
+ background-color: #EEEEEE;
+ height: 400px;
+}
+
+
+#one {
+  color: #e812ab;
+  font-size: 155px;
+  margin-left: 150px;
+}
+
 
 @media (max-width:700px) {
 
